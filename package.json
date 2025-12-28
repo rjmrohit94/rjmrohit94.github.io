@@ -1,0 +1,28 @@
+{
+  "name": "rjmrohit94.github.io",
+  "version": "1.0.0",
+  "description": "Pending: Add projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./styles.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjmrohit94/rjmrohit94.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rjmrohit94/rjmrohit94.github.io/issues"
+  },
+  "homepage": "https://github.com/rjmrohit94/rjmrohit94.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
